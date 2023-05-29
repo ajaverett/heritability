@@ -1,0 +1,43 @@
+# Assumptions Underlying Twin Studies
+
+## BUT twin studies erroneously assume that traits are additive
+
+[See here](https://ajaverett.github.io/heritability/)
+
+## BUT twin studies erroneously assume that monozygotic twins are genetically identical
+
+For this to actually violate assumptions underlying twin studies, the genetic difference must actually be a causal agent in changing phenotype similarity. There are 3.2 billion nucleotides in the human genome [@brown2002] and 4,000 detectable SNPs across 3 million people related to educational attainment [@okbay2022]  This means that if we assume that mutations happen randomly across all nucleotides, there is a phenomenally low possibility that a mutation occurs in the specific set of tagged SNPs that are influencing the relevant phenotype. Additionally, even if it does influence one of the SNPs that influence the relevant phenotype, this does not automatically indicate that the variability will change since the majority of mutations are neutral in their effects. ([CK-12 2021](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Introductory_Biology_(CK-12)/04%3A_Molecular_Biology/4.10%3A_Mutation_Effects)) Even if the mutation is negative or positive, this will likely be undetected by twin studies since each SNP accounts for a very small percentage of the behavioral variability. (meaning probably relevant untagged SNPs make up an even smaller chunk of variability) [@chabris2015] And finally, even if there was some detectable influence of phenotype that disrupted concordance, this would actually bias heritability estimates down, rather than up.
+
+## BUT the environments of monozygotic twins are overall more similar than dizygotic twins
+
+Technically, if the environments of monozygotic twins are overall more similar than those of dizygotic twins, this by itself is not enough to undermine the inference about heritability. What matters, and matters only, is whether this increased environmental similarity of MZ twins also causes the twins to be increasingly similar phenotypically. If there is a way to show that the greater environmental similarity of MZ twins has no impact on the phenotype, then its presence would be no obstacle to obtaining the heritability estimates used by twin studies. The equal environment assumption only assumes that monozygotic twins do not have phenotype-influencing trait-relevant environments that are more similar than those of an average pair of dizygotic siblings.
+
+Whether environmental influence is the causal factor for higher concordance of phenotype among monozygotic twins is purely an empirical question since the default, parsimonious model for twin studies shows that higher concordance among monozygotic twins is solely due to additive genetic variation. [@polderman2015]
+
+## BUT twin studies erroneously assume that monozygotic twins are not treated more similarly than dizygotic twins
+
+The equal environments assumption has been tested several times- virtually all of them finding no violation of the assumption. Supplementary materials from @barnes2014 reviews the literature of the equal environments assumption and supports it. @felson2014 comprehensively reviewed the evidence on the equal environments assumption, and did its own analysis with the most comprehensive set of controls to date. Correcting for violations adjusted heritability figures downwards only very modestly; heritability figures, at most, go down by about 10%. It is important to consider that this line of research is often merely correlational: Correcting twin class correlations for “environmental” similarity should be done with caution because such corrections may be inadvertently committing the sociologist’s fallacy. The entire goal is to root out causality. Genetic similarity may cause “environmental” similarity rather than the other way around. 
+
+To rigorously test the classical twin method for genetic causality, we must ask why identical twins would have more similar environments than fraternal twins if not for reasons of genotype creating environment. This leaves us with essentially three options:
+
+ - **(Hypothesis 1)** In terms of physical appearance, identical twins look more similar to each other than do fraternal twins, the phenotypic similarity is caused by people discriminating based on appearance.
+
+ - **(Hypothesis 2)** The linguistic label of “identical twins” causes people to apply more similar treatment to such twin pairs than they do to fraternal twin pairs.
+
+ - **(Hypothesis 3)** Identical twins have more similar prenatal environments than fraternal twins have, and this causes greater trait similarity.
+
+## BUT since identical twins look more similar to each other than do fraternal twins, the phenotypic similarity is caused by people discriminating based on appearance. (Hypothesis 1)
+
+If the physical similarity of monozygotic twins causes the environmental similarity that renders phenotypic similarity- this means that if genetics are controlled for, (and physical similarity is not) there will be no change to the phenotypic similarity. To directly test this, we can test to see which element is causal by controlling for genetic similarity using misidentified twins. Dizygotic twins who look sufficiently similar to be misclassified as monozygotic twins will preserve physical similarity- despite having only 50 percent of genetic similarity. If misidentified dizygotic twins have the same concordance for phenotype as dizygotic twins, the parsimonious explanation is that genetic difference is the causal effect in phenotypic similarity. [@scarr1979; @scarr1982; @kendler1993; @kendler1994; @xian2000; @borkenau2002; @cronk2002; @gunderson2006; @conley2013]  
+
+Another interesting way to assess the causal nature of physical similarity is to see if unrelated doppelgangers have any trait similarity- which they don’t. [@segal2013; @segal2013b] To indirectly test this, we can look at several different types of studies that assess if phenotypic difference is environmentally incurred. For example, we know that being attractive will offer preferential treatment [@benson1976; @talamas2016; @hamermesh2019] however attractiveness is uncorrelated, if not, slightly negatively correlated with intelligence [@feingold1992; @mitchem2015]. Another indirect measurement is to see if sex-effects overpower zygosity at all since we would reasonably assume environments treat males and females differently. There however is not much effect [@polderman2015; @stringer2017].
+
+## BUT the linguistic label of “identical twins” causes people to apply more similar treatment to such twin pairs than they do to fraternal twin pairs. (Hypothesis 2)
+
+Identical twins who are accidently labeled as fraternal twins throughout their entire lifetime actually turn out more phenotypically similar than correctly classified twins [@scarr1979; @conley2013]. Perhaps the label “identical” makes people strive for independent individuation. This phenomenon, if anything, would bias heritability estimates down rather than up.
+
+## BUT identical twins have more similar prenatal environments than fraternal twins have, and this causes greater trait similarity. (Hypothesis 3)
+
+Identical twins are not more similar than fraternal twins because of prenatal effects. About 1 in 4 pairs monozygotic twins do not share a single chorion and so have separate placentas. A large body of evidence shows that “monochorionic” monozygotic twins are no more similar to each other than “dichorionic” monozygotic twins are to each other. [@vanbeijsterveldt2016].  @marceau2016 is a review of the literature on the prenatal environment and concludes that if anything, “results do, however, consistently suggest that heritability estimates are underestimated for measures of birth weight and early growth when chorionicity is not taken into account.” This finding mirrors @scarr1982 which said “If this antenatal environmental bias exists [differences in antenatal nourishment, especially in monochorial MZ twins], it reduces rather than raises genetic estimates by introducing environmental differences between genetically identical twins.”
+
+Interestingly, prenatal effects do not seem likely to be a source of any long term effects [@dulal2018] and maternal genotype may strongly influence prenatal environment anyway. [@lunde2007]

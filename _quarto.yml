@@ -9,7 +9,9 @@ book:
   date: "5/28/2023"
   chapters:
     - index.qmd
-    # - altmodels.qmd
+    - interplay.qmd
+    - analogies.qmd
+    - historical.qmd
     - references.qmd
 
 bibliography: references.bib
