@@ -9,6 +9,7 @@ book:
   date: "5/28/2023"
   chapters:
     - index.qmd
+    - i_findings.qmd
     - i_interplay.qmd
     - i_analogies.qmd
     - i_assumptions.qmd
