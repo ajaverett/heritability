@@ -2,7 +2,7 @@
 
 ## BUT twin studies erroneously assume that traits are additive
 
-[See here](https://ajaverett.github.io/heritability/)
+See [here](ajaverett.githib.io/heritability/interplay.html#but-genetic-contribution-is-non-additive.-genes-and-environment-typically-interact-in-the-statistical-sense-to-produce-phenotypes.)
 
 ## BUT twin studies erroneously assume that monozygotic twins are genetically identical
 

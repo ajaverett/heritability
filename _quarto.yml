@@ -4,14 +4,16 @@ project:
 
 book:
   title: "Heredity"
-  favicon: bulb.png
+  favicon: gene.png
   author: "Aj!"
   date: "5/28/2023"
   chapters:
     - index.qmd
-    - interplay.qmd
-    - analogies.qmd
-    - historical.qmd
+    - i_interplay.qmd
+    - i_analogies.qmd
+    - i_assumptions.qmd
+    - i_historical.qmd
+    
     - references.qmd
 
 bibliography: references.bib
